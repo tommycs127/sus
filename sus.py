@@ -13,3 +13,4 @@ def sus(speed: int = 1):
         play(note, 175)
 
 # ඞ sus
+sus()
