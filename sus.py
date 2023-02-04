@@ -1,7 +1,7 @@
 def sus(speed: int = 1):
     import time
     import winsound
-
+    
     note2freq = lambda n: int(2 ** ((n - 49) / 12) * 440)
     duration = lambda t: int(t / speed)
     play = lambda f, t: winsound.Beep(note2freq(f), duration(t))
